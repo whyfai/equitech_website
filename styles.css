@@ -1,0 +1,49 @@
+#home { 
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-image: url(grid.jpg);
+    background-size: 40%;
+}
+
+
+.home_info {
+    padding: 8.5rem;
+    margin: 1.2rem;
+}
+
+.home_info h2 { 
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+
+.home_info p {
+    font-size: 1.3rem;
+}
+
+.home_info button { 
+    border-radius: 2rem;
+    background-color: rgb(248, 248, 248);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.home_info button a { 
+    padding: 10px;
+    text-decoration: none;
+}
+
+.home_info button:hover { 
+    scale: 1.2;
+}
+
+.nav-item {
+    padding: 1rem;
+}
+
+.nav-link {
+    color: white;
+}
