@@ -5,7 +5,7 @@
     height: 100%;
     width: 100%;
     display: flex;
-    background-image: url(grid.jpg);
+    background-image: url(assets/grid.jpg);
     background-size: 40%;
 }
 
@@ -45,5 +45,9 @@
 }
 
 .nav-link {
+    color: white;
+}
+
+.social_icon-link {
     color: white;
 }
