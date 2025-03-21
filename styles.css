@@ -51,3 +51,21 @@
 .social_icon-link {
     color: white;
 }
+
+.footer_tag { 
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+
+a { 
+    text-decoration: none;
+}
+
+.equitech_logo { 
+    border-radius: 5rem;
+}
+
+.scnhs_logo { 
+    border-radius: 5rem;
+}
