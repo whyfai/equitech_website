@@ -69,3 +69,14 @@ a {
 .scnhs_logo { 
     border-radius: 5rem;
 }
+
+.issue_button {
+    border-radius: 2rem;
+    background-color: rgb(248, 248, 248);
+    padding: 10px;
+    transition: 0.5s ease;
+}
+
+.issue_button:hover { 
+    scale: 1.2;
+}
