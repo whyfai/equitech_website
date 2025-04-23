@@ -70,6 +70,10 @@ a {
     border-radius: 5rem;
 }
 
+.the_issue {
+    background-color: rgb(240, 240, 240);
+}
+
 .issue_button {
     border-radius: 2rem;
     background-color: rgb(248, 248, 248);
@@ -78,5 +82,121 @@ a {
 }
 
 .issue_button:hover { 
+    scale: 1.2;
+}
+
+.introduction { 
+    align-items: center;
+    text-align: center;
+}
+
+.introduction h1 { 
+    font-size: 3.5rem;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.introduction h3 { 
+    font-size: 1rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.introduction_image img{  
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1rem;
+}
+
+.introduction_info { 
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem;
+}
+
+.mission {
+    text-align: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    
+}
+
+.mission p { 
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 2rem; 
+}
+
+.vision { 
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    background-color: rgb(13, 110, 253);;
+    color: white;
+    text-align: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.vision p { 
+    padding-left: 5rem;
+    padding-right: 5rem;  
+    padding-bottom: 2rem;
+}
+
+.our_process_wrapper {
+    text-align: center;
+}
+
+.process_image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -5rem; /* Pull the section up to overlap */
+}
+
+.our_process {
+    background-color: white;
+    color: black;
+    padding: 6rem 2rem 4rem 2rem;
+    border-radius: 2rem 2rem 0 0; /* Rounded top corners */
+    position: relative;
+    z-index: 1;
+}
+
+.our_process h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.our_process h3 {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+.process_info p {
+    padding: 0 10%;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.process_button {
+    margin-top: 2rem;
+    transition: 0.5s ease;
+}
+
+.process_button .btn {
+    border-radius: 2rem;
+    padding: 0.75rem 2rem;
+    font-weight: bold;
+}
+
+.process_button:hover {
     scale: 1.2;
 }
